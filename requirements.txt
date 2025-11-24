@@ -1,0 +1,11 @@
+twscrape
+pandas
+numpy
+sqlalchemy
+sentence-transformers
+faiss-cpu
+hdbscan
+scikit-learn
+requests
+python-dotenv
+

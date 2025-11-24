@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# Environment variables (CRITICAL - contains secrets)
+.env
+
+# Database files (keep local only)
+*.db
+accounts.db
+deal_sourcing.db
+
+# Generated/temporary files
+*.log
+*_output.log
+sample_*.csv
+test_*.csv
+*_export.csv
+daily_leaderboard.csv
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Twitter credentials (CRITICAL - never commit)
+twitter_cookies.json
+accounts.txt
+cookies.json
+
+# Airtable/API keys
+airtable_config.json
+
+# Temporary Python files
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
